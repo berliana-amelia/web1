@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border: 1px solid #ddd;
+        }
+
+        .example {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #eee;
+            border: 1px solid #ddd;
+        }
+
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+    <title>HTML Tags Example</title>
+</head>
+
+<body>
+
+    <section>
+        <h2>Text Tags</h2>
+        <p>HTML tags for text content:</p>
+        <div class="example">
+            <p>This is a paragraph</p> <br>
+            <code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code><br> <br>
+            <h1>Heading 1</h1> <br>
+            <code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code><br>
+            <br>
+            <em>Emphasized text</em> <br>
+            <code>&lt;em&gt;Emphasized text&lt;/em&gt;</code><br> <br>
+            <strong>Strong text</strong><br>
+            <code>&lt;strong&gt;Strong text&lt;/strong&gt;</code><br> <br>
+            <a href="#link">Link</a> <br>
+            <code>&lt;a href="#link"&gt;Link&lt;/a&gt;</code><br> <br>
+            <span>Inline span</span> <br>
+            <code>&lt;span&gt;Inline span&lt;/span&gt;</code><br>
+            <div class="example">
+                <p>This is a paragraph with a <span class="highlight">span </span> tag</p><br>
+                <code>&lt;p&gt;This is a paragraph with a <span class="highlight">&lt;span&gt;</span> tag&lt;/p&gt;</code>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Text Tags</h2>
+        <p>Heading:</p>
+        <h1>Heading 1</h1>
+        <code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code><br>
+        <h2>Heading 2</h2>
+        <code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code><br>
+        <h3>Heading 3</h3>
+        <code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code><br>
+        <h4>Heading 4</h4>
+        <code>&lt;h4&gt;Heading 4&lt;/h4&gt;</code><br>
+
+        <h5>Heading 5</h5>
+        <code>&lt;h5&gt;Heading 5&lt;/h5&gt;</code><br>
+
+        <h6>Heading 6</h6>
+        <code>&lt;h6&gt;Heading 6&lt;/h6&gt;</code><br>
+    </section>
+
+    <section>
+        <h2>List Tags</h2>
+        <p>HTML tags for creating lists:</p>
+        <div class="example">
+            <code>&lt;ul&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt;<br>
+      &lt;/ul&gt;</code><br>
+            <code>&lt;ol&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+        &nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt;<br>
+      &lt;/ol&gt;</code>
+        </div>
+        <h2>Hasil</h2>
+        <div class="example">
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ol>
+        </div>
+    </section>
+
+    <section>
+        <h2>Form Tags</h2>
+        <p>HTML tags for creating forms:</p>
+        <div class="example">
+            <code>&lt;form action="/submit" method="post"&gt;<br>
+        &nbsp;&nbsp;&lt;label for="username"&gt;Username:&lt;/label&gt;<br>
+        &nbsp;&nbsp;&lt;input type="text" id="username" name="username"&gt;<br>
+        &nbsp;&nbsp;&lt;input type="submit" value="Submit"&gt;<br>
+      &lt;/form&gt;</code><br>
+            <code>&lt;input type="checkbox" name="checkbox" id="checkbox"&gt;<br>
+      &lt;label for="checkbox"&gt;Check me&lt;/label&gt;</code><br>
+            <code>&lt;select&gt;<br>
+        &nbsp;&nbsp;&lt;option value="option1"&gt;Option 1&lt;/option&gt;<br>
+        &nbsp;&nbsp;&lt;option value="option2"&gt;Option 2&lt;/option&gt;<br>
+      &lt;/select&gt;</code>
+        </div>
+        <h2>Hasil</h2>
+        <div class="example">
+            <form action="/submit" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <input type="submit" value="Submit">
+            </form>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Check me</label> <br>
+            <select>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+            </select>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 HTML Tags Example</p>
+    </footer>
+
+</body>
+
+</html>
